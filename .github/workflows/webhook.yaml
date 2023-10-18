@@ -10,9 +10,41 @@ on:
       name: 
         required: true 
         type: string
+      city1: 
+        required: true 
+        type: string
+      city2: 
+        required: true 
+        type: string
+      city3: 
+        required: true 
+        type: string
+      city4: 
+        required: true 
+        type: string
+      city5: 
+        required: true 
+        type: string
+      city6: 
+        required: true 
+        type: string
+      city7: 
+        required: true 
+        type: string
+      city8: 
+        required: true 
+        type: string
+      city9: 
+        required: true 
+        type: string
+      city10: 
+        required: true 
+        type: string       
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: Print artifact_path
-        run: echo  The path is ${{ inputs.name }} 
+        run: |
+          echo  The name is ${{ inputs.name }} 
+          echo  The city name is ${{ inputs.city10 }} 
