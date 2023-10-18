@@ -25,18 +25,6 @@ on:
       city5: 
         required: true 
         type: string
-      city6: 
-        required: true 
-        type: string
-      city7: 
-        required: true 
-        type: string
-      city8: 
-        required: true 
-        type: string
-      city9: 
-        required: true 
-        type: string
       city10: 
         required: true 
         type: string       
